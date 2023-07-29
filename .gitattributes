@@ -1,2 +1,185 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Estilos_Actividad2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+</head>
+<body>
+    <h1 class="nombre"> Juan Leoncini </h1>
+
+
+    <p class="color_parrafo">
+        Estudiante de programación sin experiencia laboral hasta el momento. Habilidades avanzadas en el software y hardware.
+        Conocimientos sobre el rendimiento de una computadora, puedo armar una, teniendo los componentes necesarios y probar que todo esté en orden.
+        Puedo detectar posibles amenazas que tenga un ordenador y eliminarlas para mejorar su rendimiento. Además puedo hacer un mantenimiento de limpieza
+        tanto en sus componentes externos como en su software.
+
+
+
+
+    </p>
+    <hr>
+    <ul>
+        <li>
+            <a href="#ep">Experiencia profesional</a>
+        </li>
+        <li>
+            <a href="#hc">Habilidades y conocimientos</a>
+        </li>
+        <li>
+            <a href="#ed">Educacion</a>
+        </li>
+        <li>
+            <a href="#ps">Perfiles Sociales</a>
+        </li>
+        <li>
+            <a href="#co">Contactar</a>
+        </li>
+    </ul>
+    <h2 id="ep">
+        Experiencia profesional
+    </h2>
+ <table>
+    <caption></caption>
+    <thead>
+      <tr>
+        <th>Empresa / Organización</th>
+        <th>Cargo</th>
+        <th>Localización</th>
+        <th>Desde-hasta</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Empresa 1</td>
+      <td>Desarrollador web</td>
+      <td>Montevideo</td>
+      <td>Mayo 2020- Actualidad</td>
+    </tr>
+    <tr>
+      <td>Empresa 2</td>
+      <td>Analista web</td>
+      <td>Montevideo</td>
+      <td>Junio 2016 - Diciembre 2019</td>
+    </tr>
+
+  </table>
+  <hr>
+  <h2 id="hc">Habilidades y conocimientos</h2>
+
+  <ul>
+    <li>
+        <b>Desarrollo web:</b> HTML, CSS, JS
+    </li>
+    <li>
+        <b>Gestión de bugs en videojuegos:</b> Puedo encontrar posibles fallas en
+        videojuegos y ayudar a los developers a resolverlas
+    </li>
+    <li>
+        <b>Limpieza de software:</b> Puedo ayudar a mejorar el rendimiento de un ordenador
+        haciendo una limpieza breve o completa
+    </li>
+    <li>
+        <b>Limpieza de hardware:</b> Puedo hacer una limpieza de cada componente del ordenador
+        para prevenir posibles fallas y mejorar su rendimiento
+    </li>
+    <li>
+        <b>Artes marciales:</b> Conocimientos avanzados en Boxeo, Kick boxing, BJJ, Muay thai e
+        intermedios en nutrición y anatomía muscular
+    </li>
+    <img src="https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2022/01/530304.jpg"
+    alt="programador" style="width: 200px; height: 134px;">
+    <img src="https://s2-techtudo.glbimg.com/fgISkUGvWWkmPusdzBqo0q4or1I=/0x0:3876x2579/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/g/v/z6kOIMTGqdKvsBDmfoBg/cadeiragamer.jpeg"
+    alt="pcgamer" style="width: 200px; height: auto;">
+    <img src="https://images.milanuncios.com/api/v1/ma-ad-media-pro/images/ad631e95-1baf-467e-b01a-3821421ab235?rule=hw396_70"
+    alt="pccheck" style="width: 200px; height: auto;">
+    <img src="https://www.debate.com.mx/__export/1658181987885/sites/debate/img/2022/07/18/afp_2_crop1658181948204.jpg_1902800913.jpg"
+    alt="kickboxing" style="width: 200px; height: 135px;">
+
+  </ul>
+ <hr>
+
+ <h2 id="ed">Educación</h2>
+ <table>
+    <caption></caption>
+    <thead>
+      <tr>
+        <th>Titulo</th>
+        <th>Entidad</th>
+        <th>Promoción</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Habilidades digitales para la empleabilidad</td>
+      <td>INEFOP</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <td>Videojuegos con UNITY3D</td>
+      <td>elemental</td>
+      <td>2022</td>
+    </tr>
+  </table>
+  <hr>
+  <h2 id="ps">Perfiles sociales</h2>
+  <p class="negrita">Tambien puedes encontrarme en:</p>
+  <ul>
+    <li>
+        <a href="https://www.instagram.com/juanileoncini/?hl=es-la">Instagram</a>
+        <i class="fab fa-instagram"></i>
+    </li>
+    <li>
+        <a href="https://www.facebook.com/juani.leoncini/">Facebook</a>
+        <i class="fab fa-facebook"></i>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/juan-ignacio-leoncini-9a79b7218/">Linkedin</a>
+        <i class="fab fa-linkedin"></i>
+    </li>
+  </ul>
+  <hr>
+<h2 id="co">Contactar</h2>
+
+<form>
+    <div>
+        <label>Para:</label>
+
+        <input type="text" />
+    </div>
+    <label for="cars">Temática:</label>
+
+    <select id="cars" onchange="disableDefaultOption(this)">
+      <option value="--Elige un tema--">--Elige un tema--</option>
+      <option value="Consulta">Consulta</option>
+      <option value="Propuesta">Propuesta</option>
+      <option value="Agenda">Agenda</option>
+      <option value="Otro">Otro</option>
+    </select>
+
+    <div>
+        <label>Asunto:</label>
+
+        <input type="text" />
+    </div>
+
+    <div>
+        <label>Cuerpo:</label>
+        <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+        <button>Enviar</button>
+    </div>
+
+</form>
+<script>
+  function disableDefaultOption(selectElement) {
+      selectElement.options[0].disabled = true;
+  }
+  </script>
+
+
+
+</body>
+</html>
